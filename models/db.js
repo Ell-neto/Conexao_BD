@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 
-// instancio com new         --nome base de dados -- usuario -- senha
+// instancio com new         --nome base de dados -- usuario do sgbd -- senha do sgbd
 const sequelize = new Sequelize("manoel", "****", "****", {
     host: 'localhost',
     dialect: 'mysql'
